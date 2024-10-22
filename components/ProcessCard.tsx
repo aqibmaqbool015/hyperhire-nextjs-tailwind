@@ -7,7 +7,7 @@ export const ProcessCard = () => {
 
     return (
         <>
-            <div className="px-5 mt-16">
+            <div className="px-4 md:px-10 mt-16">
                 <div className="relative text-center inline-block">
                     <p className="relative text-center md:text-[22px] font-semibold text-white before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-customGradiantTo before:rounded-full before:mr-2 before:align-middle before:mt-[-25px]">
                         MAKING PROCESS
