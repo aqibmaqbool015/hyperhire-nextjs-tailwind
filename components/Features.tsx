@@ -63,7 +63,7 @@ export const Features = () => {
                         기업 홍보, 제품 소개, 교육 및 행사, 정보 및 안내 영상 등
                         당신이 필요한 '그 영상'을 플루닛 영상제작소에 맡겨주세요.
                     </p>
-                    <div className="border-b border-b-white pb-8 mx-10 opacity-80">
+                    <div className="border-b border-opacity-65 border-b-white pb-8 mx-10 opacity-80">
 
                     </div>
                 </div>
