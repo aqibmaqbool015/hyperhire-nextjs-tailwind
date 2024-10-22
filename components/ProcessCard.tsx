@@ -53,7 +53,7 @@ export const ProcessCard = () => {
                             block.map((item,index) => {
                                 return (
                                     <div key={index} className="border border-customBorder rounded-[25px] p-2 bg-customBlack bg-opacity-65 ">
-                                        fwcsd
+                                        fwcsdcsdc
                                     </div>
 
                                 );
