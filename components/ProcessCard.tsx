@@ -9,15 +9,15 @@ export const ProcessCard = () => {
         <>
             <div className="px-5 mt-16">
                 <div className="relative text-center inline-block">
-                    <p className="relative text-center text-[25px] font-semibold text-white before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-customGradiantTo before:rounded-full before:mr-2 before:align-middle before:mt-[-25px]">
+                    <p className="relative text-center md:text-[22px] font-semibold text-white before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-customGradiantTo before:rounded-full before:mr-2 before:align-middle before:mt-[-25px]">
                         MAKING PROCESS
                     </p>
                     <span className="absolute right-[-15px] top-[-8px]">
                         <img src={image.camera} alt="" className="inline-block w-[35px] h-auto object-contain " />
                     </span>
                 </div>
-                <div className="grid grid-cols-2 gap-4 mt-12">
-                    <div className="border border-customBorder rounded-[10px] bg-customBlack md:px-10 py-4">
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mt-12">
+                    <div className="border border-customBorder rounded-[10px] bg-customBlack md:px-10 px-4 py-4">
 
                         <p className="py-2 text-center text-[20px] font-semibold text-white">
                             일반 제작
@@ -30,10 +30,10 @@ export const ProcessCard = () => {
                                 return (
                                     <div key={index} className="border border-customBorder rounded-[25px] mb-4 p-2 bg-customBlack bg-opacity-65 flex items-center relative">
                                         <div className="mx-5">
-                                            <p className="text-customGradiantFrom text-[14px]  ">
+                                            <p className="text-customGradiantFrom md:text-[14px] text-[13px]  ">
                                                 {item.title}
                                             </p>
-                                            <p className="text-white font-semibold text-[15px ] ">
+                                            <p className="text-white font-semibold md:text-[15px ] text-[14px] ">
                                                 {item.text}
                                             </p>
                                         </div>
@@ -60,18 +60,18 @@ export const ProcessCard = () => {
                             {
                                 userProfile.map((item, index) => {
                                     return (
-                                        <div key={index} className="flex items-center justify-center my-3">
-                                            <div className="bg-gradient-to-r from-customGradiantFrom to-customGradiantTo px-5 py-2 rounded-[10px]">
-                                                <p className=" text-center text-[14px] font-light text-white">
+                                        <div key={index} className="flex mx-2 items-center justify-center my-3">
+                                            <div className="bg-gradient-to-r from-customGradiantFrom to-customGradiantTo md:px-5 px-2 py-2 rounded-[10px]">
+                                                <p className=" text-center md:text-[14px] text-[12px] font-light text-white">
                                                     {item.head}
                                                 </p>
-                                                <img src={item.icon} alt="" className="w-[30px] h-[30px] object-contain inline-block my-2" />
+                                                <img src={item.icon} alt="" className="md:w-[30px] w-[18px] md:h-[30px] h-[18px] object-contain inline-block my-2" />
                                             </div>
-                                            <div className="mx-3 border-b border-b-customBorder pb-4 px-5">
-                                                <p className="py-2 text-left text-[16px] font-medium text-white">
+                                            <div className="mx-3 border-b border-b-customBorder pb-4 md:px-5">
+                                                <p className="py-2 text-left md:text-[16px] text-[14px] font-medium text-white">
                                                     {item.title}
                                                 </p>
-                                                <p className=" text-left text-[13px] font-light text-white mb-5 text-opacity-70">
+                                                <p className=" text-left md:text-[13px] text-[12px] font-light text-white md:mb-5 text-opacity-70">
                                                     {item.text}
                                                 </p>
                                             </div>
